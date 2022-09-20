@@ -1,0 +1,38 @@
+// SPDX-License-Identifier: MIT
+pragma solidity >=0.8.7;
+
+//Create smart contact called exampleContract
+contract exampleContract {
+
+   //Unassigned integer called nameOfVaraible
+   uint nameOfVaraible;
+
+      //Start the constructor - set initial integers above as variables
+      constructor() public {
+
+         //Set the variable
+         nameOfVaraible = 0; 
+
+      //End the constructor
+      }
+
+//Create function called forLoop
+function forLoop() public returns(uint) {
+   
+   //Start the for loop
+   for (uint i = 0; i < 5; i++) {
+   
+      //Start the for loop counter
+      nameOfVaraible++;
+
+   //End for loop
+   }
+
+   //Return the final loop result in the transaction details
+   return nameOfVaraible;
+
+//End the function
+}
+
+//End the smart contract
+}
