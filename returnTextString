@@ -1,0 +1,11 @@
+// SPDX-License-Identifier: MIT
+pragma solidity >=0.8.7;
+
+//Create smart contact called exampleContract
+contract exampleContract {
+
+//Create a read button called NameOfButton, that when clicked returns the text string
+string public NameOfButton = "This is a text string because you clicked the button";
+
+//End the smart contract
+}
